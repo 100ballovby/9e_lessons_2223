@@ -1,0 +1,36 @@
+/*
+selector {
+    property: value;
+}
+*/
+
+body {
+    font-family: sans-serif;  /* шрифт на всей странице без засечек */
+}
+
+p, li {  /* стилизация для всех p и для всех li */
+    font-size: 18px; /* размер шрифта - 18 пикселей */
+    color: #2d2d2d;  /* цвет текста */
+    line-height: 1.6;  /* расстояние между строчками в тексте */
+}
+/* обращение к классам всегда через точку */
+.quote {  /* стилизация класса quote */
+    border: 5px solid #6386b4;  /* рамка: размер стиль цвет */
+    font-style: italic;  /* стиль начертания текста: italic-курсив, underlined-подчеркнутый */
+    color: #6386b4;
+}
+/*
+Типы рамок:
+solid - сплошная
+dotted - рамка из точек
+dashed - пунктир
+*/
+.undone {
+    color: #1fd21f;
+    font-weight: bold;  /* жирный текст */
+}
+
+.done {
+    color: red;
+    text-decoration: line-through;  /* зачеркнуть текст */
+}
